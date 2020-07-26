@@ -34,12 +34,6 @@ class TwelveDays {
     }
     
     String sing() {
-       String result = "";
-       for(int index = 1 ; index <= 12;index++){
-            result += verse(index);
-            if(index < 12)
-                result += "\n";
-       }
-       return result;
+      return verses(1,12);
     }
 }
